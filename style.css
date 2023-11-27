@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #171717;
+  color: white;
+}
+
+header {
+  background-image: url(./img/cover.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  background-color: #171717c8;
+  padding: 20vw 5rem;
+}
+
+.title h1 {
+  font-size: 100px;
+}
+
+.title h2 {
+  color: #989898;
+  font-size: 50px;
+}
+
+.container {
+  background-color: #1d1d1d;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 10rem;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 5rem;
+  font-size: 25px;
+}
+
+.logo {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.interview h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.interview article {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 5rem;
+  font-size: 25px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.person {
+  width: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.gallery-container {
+  margin: 2rem;
+}
+
+.gallery-container h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.gallery {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5rem;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.gallery img {
+  max-width: 250px;
+}
+
+.gallery a {
+  width: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    text-align: center;
+    background-color: #171717c8;
+    padding: 50vw 5rem;
+  }
+
+  .title h1 {
+    font-size: 50px;
+  }
+
+  .title h2 {
+    color: #989898;
+    font-size: 25px;
+  }
+
+  .container {
+    background-color: #1d1d1d;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 1rem;
+    font-size: 25px;
+  }
+
+  .logo {
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+  .interview h2 {
+    font-size: 0px;
+  }
+
+  .interview article {
+    padding: 1rem;
+  }
+}
